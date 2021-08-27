@@ -1,4 +1,5 @@
 var res = document.getElementById('headerOne');
 res.innerHTML = 'tesxt cnaged';
 console.log(res);
-alert('Hello all');
+var age = prompt('Enter your age..?');
+document.getElementById('headerTwo').innerHTML  = age;
