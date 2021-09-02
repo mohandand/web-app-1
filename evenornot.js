@@ -11,3 +11,4 @@ function even_or_odd(number) {
   console.log(even_or_odd(2));
   console.log(even_or_odd(7));
   console.log(even_or_odd(-42));
+console.log(even_or_odd(5));
