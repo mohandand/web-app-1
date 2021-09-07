@@ -2,9 +2,9 @@ function even_or_odd(number) {
     var number;
     console.log(number);
     if ( number % 2 == 0)
-       console.log(+ number + " is Even");
+       console.log(+ number + " is even");
     else{
-      console.log(+ number + " is Odd");
+      console.log(+ number + " is odd");
     }
   }
 
