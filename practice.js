@@ -12,5 +12,5 @@ function between(a, b) {
              return ar1;
         }
         console.log(between(3,8));
-	   console.log(between(3,10));
+	   console.log(between(5,10));
 </script>
