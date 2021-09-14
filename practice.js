@@ -15,4 +15,5 @@ function between(a, b) {
 	   console.log(between(5,10));
 console.log(between(5,20));
 console.log(between(5,30));
+console.log(between(3,40));
 </script>
