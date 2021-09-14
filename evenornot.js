@@ -1,4 +1,4 @@
-function even_or_odd(number) {
+function even_or_odd(number1) {
     var number;
     console.log(number);
     if ( number % 2 == 0)
