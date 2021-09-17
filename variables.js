@@ -121,3 +121,74 @@ console.log(hello());
     console.log(text);
 }
 )('hell all');
+
+//Function Methods call,apply bind
+
+/* below methods are used to borrow methods from another object*/
+
+let animal = {
+    name2 :'Mohan',
+    eat(a,b){console.log(this.name2  + 'eating' +a  +b);}
+};
+
+let human ={
+    name2 : 'Ravi'
+};
+
+animal.eat(5,'apples');
+
+//borrowing human object using call method
+
+animal.eat.call(human,6,'mangoes');
+
+animal.eat.apply(human,[10,'mangoes']);
+
+let humanBind = animal.eat.bind(human);
+
+humanBind(10,'Oranges');
+
+//This Keword need to check this concept but basically this will refer to current object that is calling it
+
+//ARROW Function Important
+
+/* without using Arrow*/
+
+let ob = {
+    name : 'Mohan',
+    prnt : function() {
+            console.log('a:' ,this);
+            var an_prnt = function(){
+                console.log('b:',this);
+            }
+            an_prnt();
+    }
+}
+ob.prnt();
+/* In above an_prnt function printing window object instead of ob object so to avoid this we will use
+ arrow function */
+ let ob1 = {
+    name : 'Mohan',
+    prnt : function() {
+            console.log('a:' ,this);
+            var an_prnt = ()=>{
+                console.log('b:',this);
+            }
+            an_prnt();
+    }
+}
+ob1.prnt();
+
+//now above code print will ob1 object only.we can also use bind but its lengthy procedure.
+
+//Higher Order Functions
+
+/* a function that will take another function as argument for example below setInterval function
+will take fun1 function and it will repeataldy execute same function for given interval of time
+below 1000milliseconds = 1 second* and to stop that we have to use clearInterval function*/
+
+function fun1()
+{
+    console.log('hai');
+}
+setInterval(fun1,1000);
+//clearInterval(10);
