@@ -23,4 +23,11 @@ console.log(weather);
 below statment print sunny as it declraed globally.
  but if use const it wont allow in inside function also */
 
- 
+ for(var n=0 ;n<5;n++)
+ {
+     console.log(n);
+ }
+ console.log(n);
+  
+/* in above we declared n in for loop but still we can able to access outside for loop and thic cant be done
+in other programing languages to stop this we can use let so it wont print out side for loop */
