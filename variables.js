@@ -31,3 +31,6 @@ below statment print sunny as it declraed globally.
   
 /* in above we declared n in for loop but still we can able to access outside for loop and thic cant be done
 in other programing languages to stop this we can use let so it wont print out side for loop */
+var e = 10;
+const f = 20 ;
+console.log(a);
