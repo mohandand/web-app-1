@@ -182,7 +182,8 @@ ob1.prnt();
 
 //Higher Order Functions
 
-/* a function that will take another function as argument for example below setInterval function
+/* a function that will take another function as argument or return function as on argument for example
+ below setInterval function
 will take fun1 function and it will repeataldy execute same function for given interval of time
 below 1000milliseconds = 1 second* and to stop that we have to use clearInterval function*/
 
@@ -190,5 +191,50 @@ function fun1()
 {
     console.log('hai');
 }
-setInterval(fun1,1000);
+//setInterval(fun1,1000);
 //clearInterval(10);
+
+//return function as on argument
+
+function canVote(age)
+{
+    return age>=18;
+}
+function canDrive(age)
+{
+    return age>=16;
+}
+function canMarry(age)
+{
+    return age>=21;
+}
+console.log(canDrive(21));
+console.log(canMarry(22));
+console.log(canVote(16));
+
+// above code is not for return function as on argument but if we implent same below
+
+//then it will reduce code and perfome same functionality.
+
+function age_req(r_age)
+{
+     return function(age)
+     {
+        return age>=r_age;
+     };
+
+};
+
+let can_vote = age_req(18);
+
+console.log(can_vote(34));
+let can_drive = age_req(16);
+
+console.log(can_drive(34));
+
+//even we can write below as well
+console.log(age_req(18)(24));
+
+/* So this JS programing allow us a function we can use just like a variable then we call it is 
+first class function. Here we are using a function as an arg of function and we are returning function 
+inside a function..etc*/
