@@ -9,6 +9,7 @@ class Box{
     constructor(length)
     {
         this.length = length;
+        console.log('constructor called');
     }
     display()
     {
@@ -17,4 +18,4 @@ class Box{
 }
 
 let obj1 = new Box(12);
-obj1.display();
+//obj1.display();
