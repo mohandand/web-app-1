@@ -15,3 +15,4 @@ console.log(strCount('banana' , 'a'));
 console.log(strCount('dyper' , 'a'));
 console.log(strCount('cocanut' , 'a'));
 console.log(strCount('Hello' , 'm'));
+console.log(strCount('Hello' , 'o'));
