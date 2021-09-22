@@ -11,3 +11,4 @@ function strCount(str, letter){
 }
 
 console.log(strCount('Hello' , 'l'));
+console.log(strCount('banana' , 'a'));
