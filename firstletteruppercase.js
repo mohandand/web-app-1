@@ -9,7 +9,7 @@
    str1 = str1 + " " +case1[j];
 
   }
-  console.log(str1);; 
+  console.log(str1);
 //   function titleCase(stri)
 //   {
 //   for(var i=0 ;i<str.length;i++)
