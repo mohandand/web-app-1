@@ -8,8 +8,9 @@
     <style>
         .container{
             border-radius: 1px solid black;
-            width: 10px;
-            height: 20px;
+            width: 390px;
+            height: 200px;
+            outline: 5px solid black;
         }
     </style>
 </head>
@@ -19,8 +20,10 @@
         <label for='manage tasks'>Manage Your Task</label>
         <input type='text' id='todo'>
         <button type='button'>Submitt Task</button>
-    </form>
-    <div class='container'></div>
+    </form></br>
+    <div class='container'>
+        <ul id="dynamic-list"></ul>
+    </div>
     <script type="text/javascript" src='todo.js'></script>
 </body>
 </html>
