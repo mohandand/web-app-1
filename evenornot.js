@@ -10,9 +10,4 @@ function even_or_odd(number1) {
 
   console.log(even_or_odd(2));
   console.log(even_or_odd(8));
-  console.log(even_or_odd(-42));
-console.log(even_or_odd(50));
-console.log(even_or_odd(13));
-console.log(even_or_odd(15));
-console.log(even_or_odd(15));
-console.log(even_or_odd(15));
+console.log(even_or_odd(18));
