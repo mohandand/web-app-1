@@ -23,5 +23,5 @@ class SmallBox extends Box{
     }
 }
 
-let ob1 = new SmallBox(10,20);
+let ob1 = new SmallBox(10,21);
 ob1.display();
