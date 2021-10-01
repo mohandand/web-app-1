@@ -51,7 +51,7 @@ function checkfunc(){
         this.parentElement.style["background-color"] = "green";
     }
 }
-
+// to clear list item after clikk on delete
 function itemdelete(){
     console.log(this);
     this.parentElement.remove();
