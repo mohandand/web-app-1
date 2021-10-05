@@ -2,7 +2,7 @@
 
 /* class is used to implement inheritance and each class can have only one constructor.
 
-Extend keyword is used to inherit methods of parent calss to child calss. To inherit constructor class method alone we will use super keyword */
+Extend keyword is used to inherit methods of parent calss to child calss.and To inherit constructor class method alone we will use super keyword */
 
 class Box{
 constructor(length){
