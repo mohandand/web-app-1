@@ -15,4 +15,5 @@ class Box{
 }
 
 let obj1 = new Box(12);
+//let obj1 = new Box(12);
 //obj1.display();
