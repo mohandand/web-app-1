@@ -24,8 +24,7 @@ function likes(names) {
    return res;
  }
    
-  console.log(likes(['Peter']));
-console.log(likes(['Peter']));
+  console.log(likes(['Peter']))
   console.log(likes(['Peter','Mohan']));
   console.log(likes(['Max', 'John', 'Mark']));
   console.log(likes(['Alex', 'Jacob', 'Mark', 'Max']));
