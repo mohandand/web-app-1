@@ -1,4 +1,4 @@
-//Abstraction
+//Abstraction concept
 
 /* its nothing but hiddeing unneccary details to end user
 
