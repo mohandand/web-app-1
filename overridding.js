@@ -1,4 +1,4 @@
-aclass Parent
+class Parent
 {
     live(){
         console.log('He lives in India');
