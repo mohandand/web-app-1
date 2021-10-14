@@ -1,4 +1,4 @@
-//Inheritance concept
+//Inheritance 
 
 /* class is used to implement inheritance and each class can have only one constructor.
 
