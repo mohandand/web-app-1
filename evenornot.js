@@ -1,3 +1,4 @@
+//program for even or not
 function even_or_odd(number1) {
     var number;
     console.log(number);
